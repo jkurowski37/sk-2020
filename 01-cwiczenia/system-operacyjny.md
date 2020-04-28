@@ -45,7 +45,7 @@
 | Tablica routingu          | ``$ ip route show ``  | what is gateway?!         | 
 | check nameservers (DNS)   | ``$ cat /etc/resolv.conf ``  | which DNS were set | 
 
-### Konfiguracja połączenia sieciowego
+### 1. Konfiguracja połączenia sieciowego
 
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
@@ -55,7 +55,7 @@
 | DNS 1         | 10.10.4.204      | cat /etc/resolv.conf     |
 | DNS 2         | 1.1.1.1          | nslookup uek.krakow.pl   |
 
-### Konfiguracja połączenia sieciowego (sieć domowa)
+### 2. Konfiguracja połączenia sieciowego (sieć domowa)
 
 | Parametr | wartość           | 
 | ------------- |:-------------:| 
@@ -77,3 +77,4 @@ aby załączyć obrazek
 
 ![my network](network.png)
 
+### 4. Dlaczego umiejętnosci z zakresu sieci komputerowych mogą mi się przydać?
