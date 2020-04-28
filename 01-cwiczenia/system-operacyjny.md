@@ -55,6 +55,16 @@
 | DNS 1         | 10.10.4.204      | cat /etc/resolv.conf     |
 | DNS 2         | 1.1.1.1          | nslookup uek.krakow.pl   |
 
+### Konfiguracja połączenia sieciowego (sieć domowa)
+
+| Parametr | wartość           | komentarzu |
+| ------------- |:-------------:| -----:|
+| Adres IP      | 10.0.2.15        |  |
+| Maska podsieci| 10.0.2.15/24 |  |
+| Brama         | 10.0.2.2         |  |
+| DNS 1         | 192.168.1.1    |  |
+| DNS 2         | 192.168.1.1           |  |
+
 ### Schemat sieci
 
 aby załączyć obrazek 
