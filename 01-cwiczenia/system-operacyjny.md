@@ -57,13 +57,13 @@
 
 ### Konfiguracja połączenia sieciowego (sieć domowa)
 
-| Parametr | wartość           | komentarzu |
-| ------------- |:-------------:| -----:|
-| Adres IP      | 10.0.2.15        |  |
-| Maska podsieci| 10.0.2.15/24 |  |
-| Brama         | 10.0.2.2         |  |
-| DNS 1         | 192.168.1.1    |  |
-| DNS 2         | 192.168.1.1           |  |
+| Parametr | wartość           | 
+| ------------- |:-------------:| 
+| Adres IP      | 10.0.2.15        |  
+| Maska podsieci| 10.0.2.15/24 |  
+| Brama         | 10.0.2.2         |  
+| DNS 1         | 192.168.1.1    |  
+| DNS 2         | 192.168.1.1           |  
 
 ### Schemat sieci
 
