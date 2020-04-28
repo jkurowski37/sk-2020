@@ -77,4 +77,5 @@ aby załączyć obrazek
 
 ![my network](network.png)
 
-### 4. Dlaczego umiejętnosci z zakresu sieci komputerowych mogą mi się przydać?
+### 4.
+Chciałbym znać się bardziej na tematyce sieci komputerowych z nadzieją, że przyda mi się to w pracy lub codziennym życiu.
