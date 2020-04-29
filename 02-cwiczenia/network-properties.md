@@ -57,11 +57,15 @@ Wejściowe parametry sieci
 ### Weryfikacja połączenia
 
 #### Polecenie i efekt
+
 ping 192.168.10.10 - udane
+
 ping 192.168.10.11 - udane
+
 ping 172.16.100.100 - nieudane
 
-Nowa statyczna konfiguracja 
+
+###  Nowa statyczna konfiguracja 
 
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
