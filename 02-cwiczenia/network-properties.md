@@ -35,8 +35,6 @@ ping 10.0.15.4 - udane połączenie
 ping 10.0.15.6 - udane połączenie
 
 
-Jest połączenie między komputerami
-
 Statyczna konfiguracja parametrów połączenia
 Wejściowe parametry sieci
 -------------------------
