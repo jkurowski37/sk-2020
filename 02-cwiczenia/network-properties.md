@@ -28,13 +28,12 @@ Wejściowe parametry sieci
 
 ### Weryfikacja połączenia
 
-#### Polecenie
+#### Polecenie i efekt
 
-ping 10.0.15.4
+ping 10.0.15.4 - udane połączenie
 
-ping 10.0.15.6
+ping 10.0.15.6 - udane połączenie
 
-#### Efekt
 
 Jest połączenie między komputerami
 
@@ -71,26 +70,27 @@ ping 172.16.100.100 - nieudane
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  |  | |
-| MASKA  |  | |
+| IP - address  | 169.0.1.15 | ip addr add 169.0.1.15/24 dev eth0 |
+| MASKA  | 255.255.255.0 | |
 |   |  | |
 | PC 2  |  | |
-| IP - address  |  | |
-| MASKA  |  | |
+| IP - address  | 169.0.1.16 | ip addr add 169.0.1.16/24 dev eth0 |
+| MASKA  | 255.255.255.0 | |
 
-Weryfikacja połączenia
+### Weryfikacja połączenia
 
-Polecenie
-```
-```
+#### Polecenie i efekt
 
-Efekt
-```
-```
+ping 169.0.1.15 - udane 
+
+ping 169.0.1.16 - udane 
+
 
 ### Utrwalenie konfiguracji
 
 Dlaczego? Jak? Co? :)
+
+Utrwalamy konfiguracje, żeby była zachowana po wyłączeniu maszyny.
 
 ### Warto wiedzieć
 
