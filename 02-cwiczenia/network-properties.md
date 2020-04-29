@@ -36,7 +36,7 @@ ping 10.0.15.6
 
 #### Efekt
 
-jest połączenie między komputerami
+Jest połączenie między komputerami
 
 Statyczna konfiguracja parametrów połączenia
 Wejściowe parametry sieci
@@ -44,25 +44,22 @@ Wejściowe parametry sieci
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  | 192.168.10.10 | |
+| IP - address  | 192.168.10.10 | ip addr add 192.168.10.10/24 dev eth0 |
 | MASKA  | 255.255.255.0 | |
 |   |  | |
 | PC 2  |  | |
-| IP - address  | 192.168.10.11 | |
+| IP - address  | 192.168.10.11 | ip addr add 192.168.10.11/17 dev eth0 |
 | MASKA  | 255.255.128.0 | |
 | PC 2  |  | |
-| IP - address  | 172.16.100.100 | |
+| IP - address  | 172.16.100.100 | ip addr add 192.168.10.10/16 dev eth0 |
 | MASKA  | 255.255.0.0 | |
 
-Weryfikacja połączenia
+### Weryfikacja połączenia
 
-Polecenie
-```
-```
-
-Efekt
-```
-```
+#### Polecenie i efekt
+ping 192.168.10.10 - udane
+ping 192.168.10.11 - udane
+ping 172.16.100.100 - nieudane
 
 Nowa statyczna konfiguracja 
 
