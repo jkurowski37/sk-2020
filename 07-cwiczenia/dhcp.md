@@ -25,18 +25,17 @@ Jaki parametry konfiguracji można ustawić z wykorzystaniem DHCP
 | -------------                 |
 | Adres IP                      |
 | Maska podsieci                |
-| |
-| |
-| |
-| |
-| |
+| Brama  |
+| Serwer DNS |
+| Początkowy adres IP dla innych urządzeń|
+| Maksymalna liczba użytkowników |
 
 ## Przydatne polecenia
 
-| zachowanie                    | polecenia               | komentarz                |
-| -------------                 |:-------------:            | -----:                    |
-| porzucanie dzierżawy adresu v1|  |          |
-| porzucanie dzierżawy adresu v2|  |          |
+| zachowanie                    | polecenia               |
+| -------------                 |:-------------:            | 
+| porzucanie dzierżawy adresu v1|  |
+| porzucanie dzierżawy adresu v2|  |
 
 
 ## Materiały
