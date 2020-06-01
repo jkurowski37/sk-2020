@@ -159,6 +159,7 @@ Mając dany adres hosta i maskę znajdź:
 
 3. 
   * Podziel sieć ``192.168.1.0/24``, tak aby każda podsieć miała 11 użytkowników.
+  
 | Adres sieci |  zakres hostów   | Adres Rozgłoszeniowy |
 | ----------- | -----------  | ----------- |
 | ``192.168.1.0``    | ``192.168.1.1`` - ``192.168.1.14`` | ``192.168.1.15`` |
