@@ -20,16 +20,6 @@ routing
 | destination | trasa | interfejs  |
 | --------- |:-------------| :---------------| 
 | ``PC1``     |  | |
-| ``default`` |  | enp0s3 ```` |
-| ``PC-R-1``  |  |        |
-| ```` |  | enp0s3 |
-| ```` |  | enp0s8 |
-| mozna dzielic   |  |  |
-| ````  |  | enp0s8  |
-| ```` |  | enp0s8  ```` |
-| ```` |  | enp0s8 ```` || destination | trasa | interfejs  |
-| --------- |:-------------| :---------------| 
-| ``PC1``     |  | |
 | ``default`` | ``ip route add default via 192.168.100.1/24 dev eth0`` | enp0s3 ``ip addr add 192.168.100.101/24 dev eth0`` |
 | ``PC-R-1``  |  |        |
 | ``default`` | ``ip route add default via 192.168.200.98/29 dev eth0``  | enp0s3 ``ip addr add 192.168.200.97/29 dev eth0`` |
@@ -47,14 +37,6 @@ routing
 | ``default`` | ``ip route add default via 192.168.0.194/27 dev eth2``  | enp0s9 ``ip addr add 192.168.0.193/27 dev eth2`` |
 | ``default`` | ``ip route add default via 192.168.0.66/27 dev eth3``  | enp0s10 ``ip addr add 192.168.0.65/27 dev eth3`` |
 
-| lub za 1 iteracją   |  |  |
-| ````   |  | enp0s8 ````|
-| ``PC-R-2``  |  |        |
-| ```` |  | enp0s3 |
-| ```` |  | enp0s3 ```` |
-| ````  |   | enp0s8 |
-| ```` |  | enp0s9 |
-| ```` |  | enp0s10 |
 
 
 Zadanie
